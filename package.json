@@ -1,6 +1,6 @@
 {
   "name": "@mr-hope/verify-commit-message",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Verify conventional commit messages with actionable, agent-friendly error reports.",
   "keywords": [
     "commit",
