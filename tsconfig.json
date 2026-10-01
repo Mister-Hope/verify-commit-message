@@ -1,0 +1,7 @@
+{
+  "extends": "@mr-hope/tsconfig/node.json",
+  "compilerOptions": {
+    "isolatedDeclarations": true
+  },
+  "include": ["**/*.ts"]
+}

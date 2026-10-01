@@ -1,0 +1,13 @@
+virtualStoreType: global
+
+minimumReleaseAgeExclude:
+  - "@oxfmt/*"
+  - "@oxlint/*"
+  - "@oxlint-tsgolint/*"
+  - oxc-config-hope
+  - oxfmt
+  - oxlint
+  - oxlint-tsgolint
+  - tsdown
+
+trustPolicy: no-downgrade
