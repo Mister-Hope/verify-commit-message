@@ -174,14 +174,14 @@ importers:
         specifier: 0.0.4
         version: 0.0.4(typescript@7.0.2)
       '@types/node':
-        specifier: 24.19.0
-        version: 24.19.0
+        specifier: 26.6.3
+        version: 26.6.3
       '@vitest/coverage-istanbul':
         specifier: 5.0.2
         version: 5.0.2(vitest@5.0.2)
       oxc-config-hope:
-        specifier: 0.3.14
-        version: 0.3.14(oxfmt@0.71.0)(oxlint-tsgolint@7.0.2003)(oxlint@1.86.0(oxlint-tsgolint@7.0.2003))
+        specifier: 0.3.15
+        version: 0.3.15(oxfmt@0.71.0)(oxlint-tsgolint@7.0.2003)(oxlint@1.86.0(oxlint-tsgolint@7.0.2003))
       oxfmt:
         specifier: 0.71.0
         version: 0.71.0
@@ -205,7 +205,7 @@ importers:
         version: 7.0.2
       vitest:
         specifier: 5.0.2
-        version: 5.0.2(@types/node@24.19.0)(@vitest/coverage-istanbul@5.0.2)(vite@8.3.1(@types/node@24.19.0))
+        version: 5.0.2(@types/node@26.6.3)(@vitest/coverage-istanbul@5.0.2)(vite@8.3.1(@types/node@26.6.3))
 
 packages:
 
@@ -707,8 +707,8 @@ packages:
   '@types/jsesc@2.5.1':
     resolution: {integrity: sha512-9VN+6yxLOPLOav+7PwjZbxiID2bVaeq0ED4qSQmdQTdjnXJSaCVKTR58t15oqH1H5t8Ng2ZX1SabJVoN9Q34bw==}
 
-  '@types/node@24.19.0':
-    resolution: {integrity: sha512-zY+5tKxXdhGh1PYI0ac+7juvEu4OI6vWtVVoj5i2m42jxAY1U+zHGt6QCyOFwykdP62sM3MJ9stoYYUw5aCWew==}
+  '@types/node@26.6.3':
+    resolution: {integrity: sha512-dsqMQQoeTLqu9wynDD00q573mNzso3IdQOAfHRJqLCcmCFPoGo9A1bDpUcv/9tnKpErQWv9uKeGfl37EIS02Yg==}
 
   '@typescript/typescript-aix-ppc64@7.0.2':
     resolution: {integrity: sha512-MTKKkWB7p/0E9xi1d1tHtZ5PiLkGEMIq88pK2CubZjOsLtYTLqhgIgi6zepFa+9GHZ6h05NMCkQxGKiPXMxXtQ==}
@@ -1239,8 +1239,8 @@ packages:
     resolution: {integrity: sha512-5vvB5+W7ePv+p3uqxi+RcW1XAzLW0/hxt3/4X4Lc4qHudzOhmBiBwOY6DRob4WnanAEGvNcLjF+KNOufrUoEQw==}
     engines: {node: '>=12.20.0'}
 
-  oxc-config-hope@0.3.14:
-    resolution: {integrity: sha512-cQTWiS6VEwh0plBggtO492auORwtiM+ovfcZZlzMAouA+tBLiOGcXGGxmJ6RJ9R+6k6QdYAQfa0O8qx8dQ8lhQ==}
+  oxc-config-hope@0.3.15:
+    resolution: {integrity: sha512-18KOiyNqj0hP8YRai6HLbOwn2Md/FI/jXARSl4HWzKPUavpF6zDVbFvcmRgYJcMgpTyf4ZBfsGuM848MUg+cKg==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
       oxfmt: '>=0.70.0'
@@ -1425,8 +1425,8 @@ packages:
   unconfig-core@7.5.0:
     resolution: {integrity: sha512-Su3FauozOGP44ZmKdHy2oE6LPjk51M/TRRjHv2HNCWiDvfvCoxC2lno6jevMA91MYAdCdwP05QnWdWpSbncX/w==}
 
-  undici-types@7.24.6:
-    resolution: {integrity: sha512-WRNW+sJgj5OBN4/0JpHFqtqzhpbnV0GuB+OozA9gCL7a993SmU+1JBZCzLNxYsbMfIeDL+lTsphD5jN5N+n0zg==}
+  undici-types@8.9.0:
+    resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
   update-browserslist-db@1.3.3:
     resolution: {integrity: sha512-pJ2sYawQS0R/WI928Gj5GlPhTGzbMelq0+4INtSYNDV9ErKJcX6xjGWkoG/VnB3dpUm00zALaqkrUD77pO5TDQ==}
@@ -1863,9 +1863,9 @@ snapshots:
 
   '@types/jsesc@2.5.1': {}
 
-  '@types/node@24.19.0':
+  '@types/node@26.6.3':
     dependencies:
-      undici-types: 7.24.6
+      undici-types: 8.9.0
 
   '@typescript/typescript-aix-ppc64@7.0.2':
     optional: true
@@ -1938,7 +1938,7 @@ snapshots:
       magicast: 0.5.5
       obug: 2.2.1
       tinyrainbow: 3.1.1
-      vitest: 5.0.2(@types/node@24.19.0)(@vitest/coverage-istanbul@5.0.2)(vite@8.3.1(@types/node@24.19.0))
+      vitest: 5.0.2(@types/node@26.6.3)(@vitest/coverage-istanbul@5.0.2)(vite@8.3.1(@types/node@26.6.3))
 
   '@vitest/istanbul-lib-coverage@1.0.2': {}
 
@@ -1960,14 +1960,14 @@ snapshots:
       '@vitest/istanbul-lib-coverage': 1.0.2
       obug: 2.2.1
 
-  '@vitest/mocker@5.0.2(vite@8.3.1(@types/node@24.19.0))':
+  '@vitest/mocker@5.0.2(vite@8.3.1(@types/node@26.6.3))':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       '@vitest/spy': 5.0.2
       estree-walker: 3.0.3
       magic-string: 1.4.2
     optionalDependencies:
-      vite: 8.3.1(@types/node@24.19.0)
+      vite: 8.3.1(@types/node@26.6.3)
 
   '@vitest/spy@5.0.2': {}
 
@@ -2201,7 +2201,7 @@ snapshots:
 
   obug@3.0.0: {}
 
-  oxc-config-hope@0.3.14(oxfmt@0.71.0)(oxlint-tsgolint@7.0.2003)(oxlint@1.86.0(oxlint-tsgolint@7.0.2003)):
+  oxc-config-hope@0.3.15(oxfmt@0.71.0)(oxlint-tsgolint@7.0.2003)(oxlint@1.86.0(oxlint-tsgolint@7.0.2003)):
     optionalDependencies:
       oxfmt: 0.71.0
       oxlint: 1.86.0(oxlint-tsgolint@7.0.2003)
@@ -2410,7 +2410,7 @@ snapshots:
       '@quansync/fs': 1.1.0
       quansync: 1.0.0
 
-  undici-types@7.24.6: {}
+  undici-types@8.9.0: {}
 
   update-browserslist-db@1.3.3(browserslist@4.29.3):
     dependencies:
@@ -2422,7 +2422,7 @@ snapshots:
 
   verkit@0.4.1: {}
 
-  vite@8.3.1(@types/node@24.19.0):
+  vite@8.3.1(@types/node@26.6.3):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -2430,13 +2430,13 @@ snapshots:
       rolldown: 1.2.11
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 24.19.0
+      '@types/node': 26.6.3
       fsevents: 2.3.3
 
-  vitest@5.0.2(@types/node@24.19.0)(@vitest/coverage-istanbul@5.0.2)(vite@8.3.1(@types/node@24.19.0)):
+  vitest@5.0.2(@types/node@26.6.3)(@vitest/coverage-istanbul@5.0.2)(vite@8.3.1(@types/node@26.6.3)):
     dependencies:
       '@types/chai': 5.2.3
-      '@vitest/mocker': 5.0.2(vite@8.3.1(@types/node@24.19.0))
+      '@vitest/mocker': 5.0.2(vite@8.3.1(@types/node@26.6.3))
       chai: 6.2.2
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
@@ -2447,10 +2447,10 @@ snapshots:
       tinybench: 6.2.0
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
-      vite: 8.3.1(@types/node@24.19.0)
+      vite: 8.3.1(@types/node@26.6.3)
       why-is-node-running: 3.2.1
     optionalDependencies:
-      '@types/node': 24.19.0
+      '@types/node': 26.6.3
       '@vitest/coverage-istanbul': 5.0.2(vitest@5.0.2)
     transitivePeerDependencies:
       - msw
