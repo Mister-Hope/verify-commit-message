@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", ":prHourlyLimitNone", ":prConcurrentLimitNone"],  "packageRules": [
+  "extends": ["config:recommended", ":prHourlyLimitNone", ":prConcurrentLimitNone"],
+  "packageRules": [
     {
       "description": "Patch/minor devDependency updates are safe to merge automatically.",
       "automerge": true,
