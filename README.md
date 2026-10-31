@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> This repository has been archived and merged into the
+> [Mister-Hope/configs](https://github.com/Mister-Hope/configs) monorepo.
+> The `@mr-hope/verify-commit-message` package now lives at
+> [`packages/verify-commit-message`](https://github.com/Mister-Hope/configs/tree/main/packages/verify-commit-message).
+> Please open issues and pull requests in the new repository.
+
 # @mr-hope/verify-commit-message
 
 [![npm](https://img.shields.io/npm/v/@mr-hope/verify-commit-message.svg)](https://www.npmjs.com/package/@mr-hope/verify-commit-message)
